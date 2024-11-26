@@ -15,7 +15,7 @@ sites:
     __dangerous__body_down: error
     maxResponseTime: 4000
   - name: AGE- Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer/tile/0/0/0.pbf
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
     __dangerous__body_down: error
     maxResponseTime: 4000
 
