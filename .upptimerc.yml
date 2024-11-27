@@ -40,14 +40,14 @@ sites:
     maxResponseTime: 4000
 
 status-website:
-  baseUrl: /$REPO
+  baseUrl: /vicmap-upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: Vicmap service uptime monitoring 
   introMessage: This is a test page to evaluate the Upptime service's suitability for monitoring Vicmap services.
   navbar:
     - title: Status
-      href: /$REPO
+      href: /vicmap-upptime
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
