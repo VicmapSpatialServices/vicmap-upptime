@@ -7,7 +7,7 @@ sites:
     __dangerous__body_down: "error"
     maxResponseTime: 4000
   - name: AGOL-Vicmap_Admin_error
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin_error/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "error"
     maxResponseTime: 4000    
   - name: AGS_GIS- Vicmap_Parcel_Property_Aspatial_Table/FeatureServer
