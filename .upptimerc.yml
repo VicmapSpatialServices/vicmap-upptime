@@ -24,19 +24,19 @@ sites:
     __dangerous__body_degraded: "Sign in"
     maxResponseTime: 4000
   - name: AGE- Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_tile
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer/tile/0/0/0.pbf
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
     __dangerous__body_down: "error"
-    __dangerous__body_degraded_if_text_missing: "_label_class1"
+    __dangerous__body_down_if_text_missing: "Vicmap_Vector_Tile_Basemap"
     maxResponseTime: 4000   
   - name: AGE- Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_broken
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_broken/VectorTileServer/tile/0/0/0.pbf
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_broken/VectorTileServer
     __dangerous__body_down: "error"
-    __dangerous__body_degraded_if_text_missing: "_label_class1"
+    __dangerous__body_down_if_text_missing: "Vicmap_Vector_Tile_Basemap"
     maxResponseTime: 4000
   - name: AGE- Vicmap_Vector_Tile_Basemap_DarkGrey_WM_Hosted
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_DarkGrey_WM_Hosted/VectorTileServer/tile/0/0/0.pbf
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_DarkGrey_WM_Hosted/VectorTileServer
     __dangerous__body_down: "error"
-    __dangerous__body_degraded_if_text_missing: "_label_class1"
+    __dangerous__body_down_if_text_missing: "Vicmap_Vector_Tile_Basemap"
     maxResponseTime: 4000
 
 status-website:
