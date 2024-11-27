@@ -21,7 +21,7 @@ sites:
   - name: AGE- Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
     __dangerous__body_down: "error"
-    __dangerous__body_degraded: "Sign in"
+    __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
     maxResponseTime: 4000
   - name: AGE- Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_tile
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
@@ -40,14 +40,14 @@ sites:
     maxResponseTime: 4000
 
 status-website:
-  baseUrl: /vicmap-upptime
+  baseUrl: /$REPO
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: Vicmap service uptime monitoring 
   introMessage: This is a test page to evaluate the Upptime service's suitability for monitoring Vicmap services.
   navbar:
     - title: Status
-      href: /
+      href: /$REPO
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
