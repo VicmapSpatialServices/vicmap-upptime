@@ -70,5 +70,41 @@
     "timeMonth": 280,
     "timeYear": 280,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "AGE- Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_tile",
+    "url": "https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer/tile/0/0/0.pbf",
+    "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
+    "slug": "age-vicmap-vector-tile-basemap-colour-wm-hosted-tile",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 159,
+    "timeDay": 159,
+    "timeWeek": 159,
+    "timeMonth": 159,
+    "timeYear": 159,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "AGE- Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_broken",
+    "url": "https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_broken/VectorTileServer",
+    "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
+    "slug": "age-vicmap-vector-tile-basemap-colour-wm-hosted-broken",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 419,
+    "timeDay": 419,
+    "timeWeek": 419,
+    "timeMonth": 419,
+    "timeYear": 419,
+    "dailyMinutesDown": {}
   }
 ]
