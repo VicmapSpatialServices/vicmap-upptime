@@ -26,8 +26,8 @@ sites:
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
     __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
     maxResponseTime: 4000   
-  - name: AGE-Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_broken
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
+  - name: AGE-VBM_Colour_broken
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_broken/VectorTileServer
     __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
     maxResponseTime: 4000
   - name: AGE-VBM_DarkGrey
