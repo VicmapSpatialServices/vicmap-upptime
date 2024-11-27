@@ -1,7 +1,7 @@
-url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
-status: up
+url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_broken/VectorTileServer
+status: down
 code: 200
-responseTime: 152
-lastUpdated: 2024-11-27T22:48:15.175Z
+responseTime: 450
+lastUpdated: 2024-11-27T22:53:25.440Z
 startTime: 2024-11-27T01:12:30.924Z
 generator: Upptime <https://github.com/upptime/upptime>
