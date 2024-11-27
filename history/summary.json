@@ -23,11 +23,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/services6.arcgis.com.ico",
     "slug": "agol-vicmap-admin-error",
     "status": "up",
-    "uptime": "26.29%",
-    "uptimeDay": "26.29%",
-    "uptimeWeek": "26.29%",
-    "uptimeMonth": "26.29%",
-    "uptimeYear": "26.29%",
+    "uptime": "26.42%",
+    "uptimeDay": "26.42%",
+    "uptimeWeek": "26.42%",
+    "uptimeMonth": "26.42%",
+    "uptimeYear": "26.42%",
     "time": 41,
     "timeDay": 41,
     "timeWeek": 41,
@@ -133,18 +133,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "age-vicmap-vector-tile-basemap-dark-grey-wm-hosted",
     "status": "up",
-    "uptime": "87.97%",
-    "uptimeDay": "87.97%",
-    "uptimeWeek": "87.97%",
-    "uptimeMonth": "87.97%",
-    "uptimeYear": "87.97%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 203,
     "timeDay": 203,
     "timeWeek": 203,
     "timeMonth": 203,
     "timeYear": 203,
-    "dailyMinutesDown": {
-      "2024-11-27": 7
-    }
+    "dailyMinutesDown": {}
   }
 ]
