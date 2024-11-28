@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Hydro/MapServer/0/query?where=1%3D1&resultRecordCount=1
 status: up
 code: 200
-responseTime: 1424
-lastUpdated: 2024-11-28T22:35:48.195Z
+responseTime: 1496
+lastUpdated: 2024-11-28T23:08:07.117Z
 startTime: 2024-11-28T03:19:01.299Z
 generator: Upptime <https://github.com/upptime/upptime>
