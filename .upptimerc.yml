@@ -187,12 +187,12 @@ sites:
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
   - name: AGE-Vicmap_Planning/MS
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Planning/MapServer/0/query?where=1%3D1&returnCountOnly=true
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Planning/MapServer/0/query?where=1%3D1
     __dangerous__body_down: "error"
     __dangerous__body_degraded: '"count": 0'
     maxResponseTime: 2000
   - name: AGE-Vicmap_Position/MS
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Position/MapServer/0/query?where=1%3D1&returnCountOnly=true
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Position/MapServer/0/query?where=1%3D1
     __dangerous__body_down: "error"
     __dangerous__body_degraded: '"count": 0'
     maxResponseTime: 2000
