@@ -310,19 +310,19 @@
     "url": "https://vicmap.land.vic.gov.au/hosting/rest/services/elevation/Vicmap_1m_DEM_Footprints/FeatureServer/0/query?where=1%3D1&resultRecordCount=1",
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "ags-gis-vicmap-1m-dem-footprints-fs",
-    "status": "down",
-    "uptime": "96.62%",
-    "uptimeDay": "96.62%",
-    "uptimeWeek": "96.62%",
-    "uptimeMonth": "96.62%",
-    "uptimeYear": "96.62%",
-    "time": 2060,
-    "timeDay": 2060,
-    "timeWeek": 2060,
-    "timeMonth": 2060,
-    "timeYear": 2060,
+    "status": "up",
+    "uptime": "96.55%",
+    "uptimeDay": "96.55%",
+    "uptimeWeek": "96.55%",
+    "uptimeMonth": "96.55%",
+    "uptimeYear": "96.55%",
+    "time": 1959,
+    "timeDay": 1959,
+    "timeWeek": 1959,
+    "timeMonth": 1959,
+    "timeYear": 1959,
     "dailyMinutesDown": {
-      "2024-11-28": 39
+      "2024-11-28": 40
     }
   },
   {
