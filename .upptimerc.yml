@@ -224,7 +224,7 @@ sites:
 
 #Restricted Test
   - name: UAT_AGS_GIS-VMLite_Hydro
-    url: https://vicmap-uat.land.vic.gov.au/agsgis/rest/services/vicmap_lite_hydro_watercourse_test/MapServer/0/query?where=1%3D1&resultRecordCount=1
+    url: https://vicmap-uat.land.vic.gov.au/agsgis/rest/services/vicmap_lite_hydro_watercourse_test/MapServer/0/query?where=1%3D0&resultRecordCount=1
     headers:
     - "Authorization: Basic $UAT_AGS_TEST"
     __dangerous__body_down: "error"
