@@ -34,7 +34,7 @@ sites:
   - name: Vicmap Crown Land Tenure (aggregated)
     url: https://enterprise.mapshare.vic.gov.au/server/rest/services/Vicmap_Crown_Land_Tenure/MapServer
     method: GET
-    __dangerous__body_down: "error:
+    __dangerous__body_down: "error"
 
 
 status-website:
