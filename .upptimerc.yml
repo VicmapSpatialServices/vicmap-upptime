@@ -2,23 +2,104 @@ owner: VicmapSpatialServices
 repo: vicmap-upptime
 
 sites:
-  - name: AGOL-Vicmap_Admin
+# ArcGis Online
+  - name: AGOL-Vicmap_Admin/FS
     url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "error"
     __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000 
-  - name: AGS_GIS- Vicmap_Parcel_Property_Aspatial_Table/FeatureServer
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Crown_Land_Tenure/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Crown_Land_Tenure/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Elevation_METRO_1_to_5_metre/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Elevation_METRO_1_to_5_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Elevation_STATEWIDE_10_to_20_metre/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Elevation_STATEWIDE_10_to_20_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+   __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Features_of_Interest/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Features_of_Interest/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Geomark/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Geomark/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Hydro/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Hydro/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Index/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Index/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Lite/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Lite/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Parcel/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Parcel/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Planning/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Planning/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Position/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Position/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Property/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Property/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Property_Easements_and_Road_Casements/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Property_Easements_and_Road_Casements/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Transport/FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Transport/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
+    __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  
+# ArcGis Server - GIS
+  - name: AGS_GIS- Vicmap_Parcel_Property_Aspatial_Table/FS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Parcel_Property_Aspatial_Table/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
     __dangerous__body_down: "error"
     maxResponseTime: 2000
+  - name: AGS_GIS- Vicmap_Parcel_Property_Aspatial_Table/MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Parcel_Property_Aspatial_Table/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGS_GIS- Vicmap_1m_DEM_Footprints/FS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/elevation/Vicmap_1m_DEM_Footprints/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+
+# ArcGis Server - Image
   - name: AGS_IMAGE-vicmap_dem10m_v5m_ahd_epsg7844
     url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/vicmap_dem10m_v5m_ahd_epsg7844/ImageServer/query?where=1%3D1&resultRecordCount=1&f=pjson
     __dangerous__body_down: "error"
     maxResponseTime: 2000
-  - name: AGE-Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
-    __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
-    maxResponseTime: 2000
+
+# ArcGis ENTERPRISE - Vector Base Maps
   - name: AGE-Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
     __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
@@ -27,17 +108,98 @@ sites:
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_DarkGrey_WM_Hosted/VectorTileServer
     __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
     maxResponseTime: 2000
-  - name: AGE-Vicmap_Address
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Address/MapServer/0/query?where=1%3D0&resultRecordCount=1&f=pjson
-    __dangerous__body_down: "error"
+  - name: AGE-Vicmap_Vector_Tile_Basemap_Greyscale_WM_Hosted
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Greyscale_WM_Hosted/VectorTileServer
+    __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Vector_Tile_Basemap_Hybrid_WM_Hosted
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Hybrid_WM_Hosted/VectorTileServer
+    __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Vector_Tile_Basemap_Overlay_WM_Hosted
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Overlay_WM_Hosted/VectorTileServer
+    __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
     maxResponseTime: 2000
 
+# ArcGis Enterprise
+  - name: AGE-Vicmap_Address/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Address/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Admin/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Admin/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Crown_Land_Tenure/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Crown_Land_Tenure/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Elevation_METRO_1_to_5_metre/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Elevation_METRO_1_to_5_metre/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Elevation_STATEWIDE_10_to_20_metre/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Elevation_STATEWIDE_10_to_20_metre/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Features_of_Interest/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Features_of_Interest/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Geomark/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Geomark/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Hydro/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Hydro/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Index/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Index/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Lite/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Lite/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Parcel/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Parcel/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Planning/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Planning/MapServer/0/query?where=1%3D1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Position/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Position/MapServer/0/query?where=1%3D1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Property_Address/FS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Property_Address/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Property_Address/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Property_Address/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Property_Easements_and_Road_Casements/M
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Property_Easements_and_Road_Casements/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Property/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Property/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
+  - name: AGE-Vicmap_Transport/MS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Transport/MapServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
+    __dangerous__body_down: "error"
+    maxResponseTime: 2000
 
 status-website:
   baseUrl: /vicmap-upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: Vicmap service uptime monitoring 
+  introTitle: Vicmap service uptime monitoring
   introMessage: This is a test page to evaluate the Upptime service's suitability for monitoring Vicmap services.
   navbar:
     - title: Status
