@@ -234,6 +234,8 @@ sites:
 #Restricted Test Token
   - name: UAT_AGS_GIS-VMLite_Hydro_token
     url: https://vicmap-uat.land.vic.gov.au/agsgis/rest/services/vicmap_lite_hydro_watercourse_test/MapServer/0/query?where=1%3D0&resultRecordCount=1&sqlFormat=none&f=json&token=$UAT_AGS_TEST_TOKEN
+    headers:
+    - "Referer: https://vicmap-uat.land.vic.gov.au"
     __dangerous__body_down: "error"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
