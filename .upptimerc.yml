@@ -29,7 +29,7 @@ sites:
     maxResponseTime: 20
   - name: AGE-Vicmap_Address
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Address/MapServer/0/query?where=1%3D0&resultRecordCount=1&f=pjson
-    __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
+    __dangerous__body_down: "error"
     __dangerous__body_degraded: '"features": [
   
  ]'
