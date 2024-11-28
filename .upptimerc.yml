@@ -20,7 +20,7 @@ sites:
     maxResponseTime: 2000
   - name: AGOL-Vicmap_Elevation_STATEWIDE_10_to_20_metre/FS
     url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Elevation_STATEWIDE_10_to_20_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson&token=
-   __dangerous__body_down: "error"
+    __dangerous__body_down: "error"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
   - name: AGOL-Vicmap_Features_of_Interest/FS
