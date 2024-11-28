@@ -1,7 +1,7 @@
-url: https://vicmap-uat.land.vic.gov.au/agsgis/rest/services/vicmap_lite_hydro_watercourse_test/MapServer/0/query?where=1%3D0&resultRecordCount=1
+url: https://vicmap-uat.land.vic.gov.au/agsgis/rest/services/vicmap_lite_hydro_watercourse_test/MapServer/0/query?where=1%3D0&resultRecordCount=1&sqlFormat=none&token=$UAT_AGS_TEST_TOKEN
 status: up
 code: 200
-responseTime: 1025
-lastUpdated: 2024-11-28T05:13:12.479Z
+responseTime: 390
+lastUpdated: 2024-11-28T05:13:13.065Z
 startTime: 2024-11-28T04:34:51.176Z
 generator: Upptime <https://github.com/upptime/upptime>
