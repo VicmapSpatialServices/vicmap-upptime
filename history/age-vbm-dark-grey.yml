@@ -1,7 +1,7 @@
-url: https://vicmap.land.vic.gov.au/hosting/rest/serbices/Hosted/Vicmap_Vector_Tile_Basemap_DarkGrey_WM_Hosted/VectorTileServer
-status: down
-code: 403
-responseTime: 205
-lastUpdated: 2024-11-27T23:59:53.597Z
+url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_DarkGrey_WM_Hosted/VectorTileServer
+status: degraded
+code: 200
+responseTime: 156
+lastUpdated: 2024-11-28T00:50:38.591Z
 startTime: 2024-11-27T23:35:41.421Z
 generator: Upptime <https://github.com/upptime/upptime>
