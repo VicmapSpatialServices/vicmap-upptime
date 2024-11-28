@@ -311,19 +311,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "ags-gis-vicmap-1m-dem-footprints-fs",
     "status": "up",
-    "uptime": "91.76%",
-    "uptimeDay": "91.76%",
-    "uptimeWeek": "91.76%",
-    "uptimeMonth": "91.76%",
-    "uptimeYear": "91.76%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 221,
     "timeDay": 221,
     "timeWeek": 221,
     "timeMonth": 221,
     "timeYear": 221,
-    "dailyMinutesDown": {
-      "2024-11-28": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGS_IMAGE-vicmap_dem10m_v5m_ahd_epsg7844",
@@ -655,19 +653,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "age-vicmap-position-ms",
     "status": "up",
-    "uptime": "91.94%",
-    "uptimeDay": "91.94%",
-    "uptimeWeek": "91.94%",
-    "uptimeMonth": "91.94%",
-    "uptimeYear": "91.94%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 1746,
     "timeDay": 1746,
     "timeWeek": 1746,
     "timeMonth": 1746,
     "timeYear": 1746,
-    "dailyMinutesDown": {
-      "2024-11-28": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGE-Vicmap_Property_Address/FS",
@@ -675,19 +671,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "age-vicmap-property-address-fs",
     "status": "up",
-    "uptime": "92.11%",
-    "uptimeDay": "92.11%",
-    "uptimeWeek": "92.11%",
-    "uptimeMonth": "92.11%",
-    "uptimeYear": "92.11%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 2229,
     "timeDay": 2229,
     "timeWeek": 2229,
     "timeMonth": 2229,
     "timeYear": 2229,
-    "dailyMinutesDown": {
-      "2024-11-28": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGE-Vicmap_Property_Address/MS",
