@@ -5,6 +5,7 @@ sites:
   - name: AGOL-Vicmap_Admin
     url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "error"
+    __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000 
   - name: AGS_GIS- Vicmap_Parcel_Property_Aspatial_Table/FeatureServer
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Parcel_Property_Aspatial_Table/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
@@ -26,6 +27,14 @@ sites:
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_DarkGrey_WM_Hosted/VectorTileServer
     __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
     maxResponseTime: 20
+  - name: AGE-Vicmap_Address
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Address/MapServer/0/query?where=1%3D0&resultRecordCount=1&f=pjson
+    __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
+    __dangerous__body_degraded: '"features": [
+  
+ ]'
+    maxResponseTime: 2000
+
 
 status-website:
   baseUrl: /vicmap-upptime
