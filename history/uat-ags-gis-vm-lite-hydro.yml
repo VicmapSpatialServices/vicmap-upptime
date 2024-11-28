@@ -1,7 +1,7 @@
-url: https://vicmap-uat.land.vic.gov.au/agsgis/rest/services/vicmap_lite_hydro_watercourse_test/MapServer/0/query?where=1%3D0&resultRecordCount=1
-status: degraded
+url: https://vicmap-uat.land.vic.gov.au/agsgis/rest/services/vicmap_lite_hydro_watercourse_test/MapServer/0/query?where=1%3D0&resultRecordCount=1&f=json
+status: down
 code: 200
-responseTime: 1004
-lastUpdated: 2024-11-28T05:23:46.939Z
+responseTime: 881
+lastUpdated: 2024-11-28T05:29:05.836Z
 startTime: 2024-11-28T04:34:51.176Z
 generator: Upptime <https://github.com/upptime/upptime>
