@@ -217,7 +217,7 @@ sites:
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
   - name: AGE-Vicmap_Transport/MS
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Transport/MapServer/0/query?where=1%3D0&resultRecordCount=1
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Transport/MapServer/0/query?where=1%3D1&resultRecordCount=1
     __dangerous__body_down: "error"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
