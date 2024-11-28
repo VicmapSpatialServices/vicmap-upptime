@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Property_Easements_and_Road_Casements/MapServer/0/query?where=1%3D1&returnCountOnly=true&resultRecordCount=1&f=pjson
 status: up
 code: 200
-responseTime: 283
-lastUpdated: 2024-11-28T04:13:23.632Z
+responseTime: 233
+lastUpdated: 2024-11-28T04:18:03.214Z
 startTime: 2024-11-28T03:19:08.983Z
 generator: Upptime <https://github.com/upptime/upptime>
