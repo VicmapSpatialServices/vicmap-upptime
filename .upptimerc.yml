@@ -5,11 +5,7 @@ sites:
   - name: AGOL-Vicmap_Admin
     url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "error"
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Admin_error
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin_error/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "error"
-    maxResponseTime: 2000    
+    maxResponseTime: 2000 
   - name: AGS_GIS- Vicmap_Parcel_Property_Aspatial_Table/FeatureServer
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Parcel_Property_Aspatial_Table/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&f=pjson
     __dangerous__body_down: "error"
@@ -23,10 +19,10 @@ sites:
     __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
     maxResponseTime: 2000
   - name: AGE-Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted_broken/VectorTileServer
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
     __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
     maxResponseTime: 2000
-  - name: AGE-VBM_DarkGrey
+  - name: AGE-Vicmap_Vector_Tile_Basemap_DarkGrey_WM_Hosted
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_DarkGrey_WM_Hosted/VectorTileServer
     __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
     maxResponseTime: 20
