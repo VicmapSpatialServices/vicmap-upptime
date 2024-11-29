@@ -102,11 +102,6 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
-  - name: AGS_GIS- Vicmap_1m_DEM_Footprints-FS
-    url: https://vicmap.land.vic.gov.au/hosting/rest/services/elevation/Vicmap_1m_DEM_Footprints/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: "No records found."
-    maxResponseTime: 2000
 
 # ArcGis Server - Image
   - name: AGS_IMAGE-vicmap_dem10m_v5m_ahd_epsg7844-IS
@@ -153,6 +148,11 @@ sites:
       - sylviadelw
 
 # ArcGis Enterprise
+- name: AGE- Vicmap_1m_DEM_Footprints-FS
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/elevation/Vicmap_1m_DEM_Footprints/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
   - name: AGE-Vicmap_Address-MS
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Address/MapServer/0/query?where=1%3D1&resultRecordCount=1
     __dangerous__body_down: "rror"
