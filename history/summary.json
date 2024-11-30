@@ -275,19 +275,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "ags-gis-vicmap-parcel-property-aspatial-table-fs",
     "status": "up",
-    "uptime": "99.57%",
-    "uptimeDay": "99.00%",
-    "uptimeWeek": "99.57%",
-    "uptimeMonth": "99.57%",
-    "uptimeYear": "99.57%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 1080,
     "timeDay": 1089,
     "timeWeek": 1080,
     "timeMonth": 1080,
     "timeYear": 1080,
-    "dailyMinutesDown": {
-      "2024-11-30": 14
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGS_GIS- Vicmap_Parcel_Property_Aspatial_Table-MS",
@@ -295,19 +293,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "ags-gis-vicmap-parcel-property-aspatial-table-ms",
     "status": "up",
-    "uptime": "99.57%",
-    "uptimeDay": "99.00%",
-    "uptimeWeek": "99.57%",
-    "uptimeMonth": "99.57%",
-    "uptimeYear": "99.57%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 253,
     "timeDay": 574,
     "timeWeek": 253,
     "timeMonth": 253,
     "timeYear": 253,
-    "dailyMinutesDown": {
-      "2024-11-30": 14
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGS_GIS- Vicmap_1m_DEM_Footprints-FS",
@@ -440,19 +436,19 @@
     "url": "https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Address/MapServer/0/query?where=1%3D1&resultRecordCount=1",
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "age-vicmap-address-ms",
-    "status": "degraded",
-    "uptime": "99.56%",
-    "uptimeDay": "98.97%",
-    "uptimeWeek": "99.56%",
-    "uptimeMonth": "99.56%",
-    "uptimeYear": "99.56%",
-    "time": 334,
-    "timeDay": 1289,
-    "timeWeek": 334,
-    "timeMonth": 334,
-    "timeYear": 334,
+    "status": "up",
+    "uptime": "99.31%",
+    "uptimeDay": "98.38%",
+    "uptimeWeek": "99.31%",
+    "uptimeMonth": "99.31%",
+    "uptimeYear": "99.31%",
+    "time": 329,
+    "timeDay": 932,
+    "timeWeek": 329,
+    "timeMonth": 329,
+    "timeYear": 329,
     "dailyMinutesDown": {
-      "2024-11-30": 15
+      "2024-11-30": 23
     }
   },
   {
@@ -533,19 +529,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "age-vicmap-features-of-interest-ms",
     "status": "up",
-    "uptime": "99.57%",
-    "uptimeDay": "99.00%",
-    "uptimeWeek": "99.57%",
-    "uptimeMonth": "99.57%",
-    "uptimeYear": "99.57%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 458,
     "timeDay": 217,
     "timeWeek": 458,
     "timeMonth": 458,
     "timeYear": 458,
-    "dailyMinutesDown": {
-      "2024-11-30": 14
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGE-Vicmap_Geomark-MS",
@@ -571,19 +565,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "age-vicmap-hydro-ms",
     "status": "up",
-    "uptime": "99.57%",
-    "uptimeDay": "99.00%",
-    "uptimeWeek": "99.57%",
-    "uptimeMonth": "99.57%",
-    "uptimeYear": "99.57%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 421,
     "timeDay": 226,
     "timeWeek": 421,
     "timeMonth": 421,
     "timeYear": 421,
-    "dailyMinutesDown": {
-      "2024-11-30": 14
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGE-Vicmap_Index-MS",
@@ -717,19 +709,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "age-vicmap-property-easements-and-road-casements-m",
     "status": "up",
-    "uptime": "99.57%",
-    "uptimeDay": "99.00%",
-    "uptimeWeek": "99.57%",
-    "uptimeMonth": "99.57%",
-    "uptimeYear": "99.57%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 334,
     "timeDay": 303,
     "timeWeek": 334,
     "timeMonth": 334,
     "timeYear": 334,
-    "dailyMinutesDown": {
-      "2024-11-30": 14
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGE-Vicmap_Property-MS",
@@ -754,19 +744,19 @@
     "url": "https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Transport/MapServer/0/query?where=1%3D1&resultRecordCount=1",
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "age-vicmap-transport-ms",
-    "status": "degraded",
-    "uptime": "99.56%",
-    "uptimeDay": "98.98%",
-    "uptimeWeek": "99.56%",
-    "uptimeMonth": "99.56%",
-    "uptimeYear": "99.56%",
-    "time": 466,
-    "timeDay": 201,
-    "timeWeek": 466,
-    "timeMonth": 466,
-    "timeYear": 466,
+    "status": "up",
+    "uptime": "99.31%",
+    "uptimeDay": "98.38%",
+    "uptimeWeek": "99.31%",
+    "uptimeMonth": "99.31%",
+    "uptimeYear": "99.31%",
+    "time": 455,
+    "timeDay": 205,
+    "timeWeek": 455,
+    "timeMonth": 455,
+    "timeYear": 455,
     "dailyMinutesDown": {
-      "2024-11-30": 15
+      "2024-11-30": 23
     }
   },
   {
