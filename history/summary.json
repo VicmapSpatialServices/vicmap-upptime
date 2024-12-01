@@ -313,19 +313,19 @@
     "url": "https://vicmap.land.vic.gov.au/hosting/rest/services/elevation/Vicmap_1m_DEM_Footprints/FeatureServer/0/query?where=1%3D1&resultRecordCount=1",
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "ags-gis-vicmap-1m-dem-footprints-fs",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 1344,
-    "timeDay": 232,
-    "timeWeek": 1344,
-    "timeMonth": 1344,
-    "timeYear": 1344,
+    "status": "up",
+    "uptime": "99.80%",
+    "uptimeDay": "99.33%",
+    "uptimeWeek": "99.80%",
+    "uptimeMonth": "99.80%",
+    "uptimeYear": "99.80%",
+    "time": 1305,
+    "timeDay": 225,
+    "timeWeek": 1305,
+    "timeMonth": 1305,
+    "timeYear": 1305,
     "dailyMinutesDown": {
-      "2024-12-01": 0
+      "2024-12-01": 10
     }
   },
   {
@@ -351,18 +351,20 @@
     "url": "https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer",
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "age-vicmap-vector-tile-basemap-colour-wm-hosted",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 302,
-    "timeDay": 201,
-    "timeWeek": 302,
-    "timeMonth": 302,
-    "timeYear": 302,
-    "dailyMinutesDown": {}
+    "time": 304,
+    "timeDay": 344,
+    "timeWeek": 304,
+    "timeMonth": 304,
+    "timeYear": 304,
+    "dailyMinutesDown": {
+      "2024-12-01": 0
+    }
   },
   {
     "name": "AGE-Vicmap_Vector_Tile_Basemap_DarkGrey_WM_Hosted",
