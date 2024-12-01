@@ -333,7 +333,7 @@
     "slug": "age-vicmap-vector-tile-basemap-colour-wm-hosted",
     "status": "down",
     "uptime": "90.07%",
-    "uptimeDay": "50.95%",
+    "uptimeDay": "50.93%",
     "uptimeWeek": "90.07%",
     "uptimeMonth": "90.07%",
     "uptimeYear": "90.07%",
@@ -343,7 +343,7 @@
     "timeMonth": 306,
     "timeYear": 306,
     "dailyMinutesDown": {
-      "2024-12-01": 706
+      "2024-12-01": 707
     }
   },
   {
@@ -353,7 +353,7 @@
     "slug": "age-vicmap-vector-tile-basemap-dark-grey-wm-hosted",
     "status": "down",
     "uptime": "88.27%",
-    "uptimeDay": "54.26%",
+    "uptimeDay": "54.24%",
     "uptimeWeek": "88.27%",
     "uptimeMonth": "88.27%",
     "uptimeYear": "88.27%",
