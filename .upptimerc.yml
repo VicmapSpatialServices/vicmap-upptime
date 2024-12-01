@@ -14,7 +14,7 @@ workflowSchedule:
   uptime: "*/5 * * * *"
 
 sites:
-# ArcGis Online
+  # ArcGis Online
   - name: AGOL-Vicmap_Admin-FS
     url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
@@ -90,8 +90,8 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-  
-# ArcGis Server - GIS
+
+  # ArcGis Server - GIS
   - name: AGS_GIS- Vicmap_Parcel_Property_Aspatial_Table-FS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Parcel_Property_Aspatial_Table/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
     __dangerous__body_down: "rror"
@@ -103,14 +103,14 @@ sites:
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-# ArcGis Server - Image
+  # ArcGis Server - Image
   - name: AGS_IMAGE-vicmap_dem10m_v5m_ahd_epsg7844-IS
     url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/vicmap_dem10m_v5m_ahd_epsg7844/ImageServer/query?where=1%3D1&resultRecordCount=1
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-# ArcGis ENTERPRISE - Vector Base Maps
+  # ArcGis ENTERPRISE - Vector Base Maps
   - name: AGE-Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
     __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
@@ -147,8 +147,8 @@ sites:
     assignees:
       - sylviadelw
 
-# ArcGis Enterprise
-- name: AGE- Vicmap_1m_DEM_Footprints-FS
+  # ArcGis Enterprise
+  - name: AGE- Vicmap_1m_DEM_Footprints-FS
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/elevation/Vicmap_1m_DEM_Footprints/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
@@ -244,11 +244,11 @@ sites:
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-#Restricted Test Token
+  #Restricted Test Token
   - name: UAT_AGS_GIS-VMLite_Hydro_token
     url: https://vicmap-uat.land.vic.gov.au/agsgis/rest/services/vicmap_lite_hydro_watercourse_test/MapServer/0/query?where=1%3D0&resultRecordCount=1&sqlFormat=none&f=json&token=$UAT_AGS_TEST_TOKEN
     headers:
-    - "Referer: https://vicmap-uat.land.vic.gov.au"
+      - "Referer: https://vicmap-uat.land.vic.gov.au"
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features": []'
     maxResponseTime: 2000
@@ -264,6 +264,5 @@ status-website:
       href: /vicmap-upptime
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
