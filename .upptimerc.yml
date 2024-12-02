@@ -11,7 +11,7 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
+  uptime: "*/5 * * * 1-5"
 
 sites:
   # ArcGis Online
@@ -244,13 +244,30 @@ sites:
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-  #Restricted Test Token
+  # Restricted Services
+
+  # Test Service, can be deleted when it fails
   - name: UAT_AGS_GIS-VMLite_Hydro_token
     url: https://vicmap-uat.land.vic.gov.au/agsgis/rest/services/vicmap_lite_hydro_watercourse_test/MapServer/0/query?where=1%3D0&resultRecordCount=1&sqlFormat=none&f=json&token=$UAT_AGS_TEST_TOKEN
     headers:
       - "Referer: https://vicmap-uat.land.vic.gov.au"
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features": []'
+    maxResponseTime: 2000
+
+  - name: AGS_IMAGE-Vicmap_1m_DEM_Terrain-IS
+    url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/Vicmap_1m_DEM_Terrain/ImageServer/query?where=1%3D1&resultRecordCount=1&f=json&token=$AGS_IMAGE_TOKEN
+    headers:
+      - "Referer: https://vicmap.land.vic.gov.au"
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features": []'
+    maxResponseTime: 2000
+
+  - name: AGS_GIS-stateview_imagery_mosaic_epsg3857-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/basemaps/stateview_imagery_mosaic_epsg3857/MapServer/0/?f=json&token=$AGS_GIS_TOKEN
+    headers:
+      - "Referer: https://vicmap.land.vic.gov.au"
+    __dangerous__body_down: "rror"
     maxResponseTime: 2000
 
 status-website:
