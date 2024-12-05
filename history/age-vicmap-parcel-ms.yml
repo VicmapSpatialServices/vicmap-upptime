@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Parcel/MapServer/0/query?where=1%3D1&resultRecordCount=1
 status: up
 code: 200
-responseTime: 235
-lastUpdated: 2024-12-04T23:08:16.128Z
+responseTime: 986
+lastUpdated: 2024-12-05T23:08:35.454Z
 startTime: 2024-11-28T03:19:03.634Z
 generator: Upptime <https://github.com/upptime/upptime>
