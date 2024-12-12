@@ -4,6 +4,7 @@ repo: vicmap-upptime
 assignees:
   - Niko361
   - RubySaint
+  - adensley
 
 workflowSchedule:
   graphs: "0 0 * * *"
