@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Property_Address/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
-status: up
+status: degraded
 code: 200
-responseTime: 265
-lastUpdated: 2024-12-15T23:07:30.287Z
+responseTime: 6353
+lastUpdated: 2024-12-16T04:24:15.382Z
 startTime: 2024-11-28T03:19:07.400Z
 generator: Upptime <https://github.com/upptime/upptime>
