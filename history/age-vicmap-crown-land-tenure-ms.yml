@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Crown_Land_Tenure/MapServer/0/query?where=1%3D1&resultRecordCount=1
 status: up
 code: 200
-responseTime: 708
-lastUpdated: 2024-12-29T22:50:51.311Z
+responseTime: 234
+lastUpdated: 2024-12-29T23:06:42.195Z
 startTime: 2024-11-28T03:18:55.874Z
 generator: Upptime <https://github.com/upptime/upptime>
