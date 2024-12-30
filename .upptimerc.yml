@@ -16,7 +16,7 @@ workflowSchedule:
   uptime: "*/5 * * * 1-5"
 
 sites:
-  # ArcGis Online
+  # ArcGIS Online
   - name: AGOL-Vicmap_Address-FS
     url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Address/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
@@ -102,8 +102,50 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL- Vicmap_Vegetation_Tree_Density_GDA2020-MS
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density_GDA2020/MapServer?f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Veg_Tree_Density-MS
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Veg_Tree_Density/MapServer?f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Vegetation_Tree_Extent_GDA2020-MS
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Extent_GDA2020/MapServer?f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Vegetation_Tree_Extent-MS
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Extent/MapServer?f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Vegetation_Tree_Urban_Tiled-MS
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Urban_Tiled/MapServer?f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Vegetation_Tree_Urba-MS
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Urba/MapServer?f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
 
-  # ArcGis Server - GIS
+  # ArcGIS Enterprise (ISD)
+  - name: AGE_ISD- Vicmap_Vegetation_Tree_Urban-MS
+    url: https://enterprise.mapshare.vic.gov.au/server/rest/services/Vicmap_Vegetation_Tree_Urban/MapServer
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+  - name: AGE_ISD- Vicmap_Vegetation_Tree_Urban-FS
+    url: https://enterprise.mapshare.vic.gov.au/server/rest/services/Hosted/Vicmap_Vegetation_Tree_Urban/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+  # ArcGIS Server - GIS
   - name: AGS_GIS- Vicmap_Parcel_Property_Aspatial_Table-FS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Parcel_Property_Aspatial_Table/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
     __dangerous__body_down: "rror"
@@ -115,14 +157,14 @@ sites:
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-  # ArcGis Server - Image
+  # ArcGIS Server - Image
   - name: AGS_IMAGE-vicmap_dem10m_v5m_ahd_epsg7844-IS
     url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/vicmap_dem10m_v5m_ahd_epsg7844/ImageServer/query?where=1%3D1&resultRecordCount=1
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-  # ArcGis ENTERPRISE - Vector Base Maps
+  # ArcGIS ENTERPRISE - Vector Base Maps
   - name: AGE-Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
     __dangerous__body_down_if_text_missing: "ArcGIS REST Services Directory"
@@ -159,7 +201,7 @@ sites:
     assignees:
       - sylviadelw
 
-  # ArcGis Enterprise
+  # ArcGIS Enterprise
   - name: AGE- Vicmap_1m_DEM_Footprints-FS
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/elevation/Vicmap_1m_DEM_Footprints/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
     __dangerous__body_down: "rror"
@@ -284,4 +326,4 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 # Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration 
+# See https://upptime.js.org/docs/configuration
