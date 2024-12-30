@@ -314,19 +314,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/tiles.arcgis.com.ico",
     "slug": "agol-vicmap-vegetation-tree-density-gda-2020-ms",
     "status": "up",
-    "uptime": "7.87%",
-    "uptimeDay": "7.87%",
-    "uptimeWeek": "7.87%",
-    "uptimeMonth": "7.87%",
-    "uptimeYear": "7.87%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 163,
     "timeDay": 163,
     "timeWeek": 163,
     "timeMonth": 163,
     "timeYear": 163,
-    "dailyMinutesDown": {
-      "2024-12-30": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGOL-Vicmap_Veg_Tree_Density-MS",
@@ -334,19 +332,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/tiles.arcgis.com.ico",
     "slug": "agol-vicmap-veg-tree-density-ms",
     "status": "up",
-    "uptime": "7.43%",
-    "uptimeDay": "7.43%",
-    "uptimeWeek": "7.43%",
-    "uptimeMonth": "7.43%",
-    "uptimeYear": "7.43%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 72,
     "timeDay": 72,
     "timeWeek": 72,
     "timeMonth": 72,
     "timeYear": 72,
-    "dailyMinutesDown": {
-      "2024-12-30": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGOL-Vicmap_Vegetation_Tree_Extent_GDA2020-MS",
@@ -354,19 +350,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/tiles.arcgis.com.ico",
     "slug": "agol-vicmap-vegetation-tree-extent-gda-2020-ms",
     "status": "up",
-    "uptime": "6.79%",
-    "uptimeDay": "6.79%",
-    "uptimeWeek": "6.79%",
-    "uptimeMonth": "6.79%",
-    "uptimeYear": "6.79%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 102,
     "timeDay": 102,
     "timeWeek": 102,
     "timeMonth": 102,
     "timeYear": 102,
-    "dailyMinutesDown": {
-      "2024-12-30": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGOL-Vicmap_Vegetation_Tree_Extent-MS",
@@ -374,19 +368,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/tiles.arcgis.com.ico",
     "slug": "agol-vicmap-vegetation-tree-extent-ms",
     "status": "up",
-    "uptime": "6.54%",
-    "uptimeDay": "6.54%",
-    "uptimeWeek": "6.54%",
-    "uptimeMonth": "6.54%",
-    "uptimeYear": "6.54%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 63,
     "timeDay": 63,
     "timeWeek": 63,
     "timeMonth": 63,
     "timeYear": 63,
-    "dailyMinutesDown": {
-      "2024-12-30": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGOL-Vicmap_Vegetation_Tree_Urban_Tiled-MS",
@@ -394,19 +386,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/tiles.arcgis.com.ico",
     "slug": "agol-vicmap-vegetation-tree-urban-tiled-ms",
     "status": "up",
-    "uptime": "6.09%",
-    "uptimeDay": "6.09%",
-    "uptimeWeek": "6.09%",
-    "uptimeMonth": "6.09%",
-    "uptimeYear": "6.09%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 56,
     "timeDay": 56,
     "timeWeek": 56,
     "timeMonth": 56,
     "timeYear": 56,
-    "dailyMinutesDown": {
-      "2024-12-30": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGOL-Vicmap_Vegetation_Tree_Urba-MS",
@@ -414,19 +404,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/tiles.arcgis.com.ico",
     "slug": "agol-vicmap-vegetation-tree-urba-ms",
     "status": "up",
-    "uptime": "6.08%",
-    "uptimeDay": "6.08%",
-    "uptimeWeek": "6.08%",
-    "uptimeMonth": "6.08%",
-    "uptimeYear": "6.08%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 30,
     "timeDay": 30,
     "timeWeek": 30,
     "timeMonth": 30,
     "timeYear": 30,
-    "dailyMinutesDown": {
-      "2024-12-30": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "AGE_ISD- Vicmap_Vegetation_Tree_Urban-MS",
@@ -716,7 +704,7 @@
     "slug": "age-vicmap-crown-land-tenure-ms",
     "status": "up",
     "uptime": "78.34%",
-    "uptimeDay": "14.20%",
+    "uptimeDay": "14.24%",
     "uptimeWeek": "6.84%",
     "uptimeMonth": "77.23%",
     "uptimeYear": "78.34%",
@@ -748,7 +736,7 @@
     "slug": "age-vicmap-elevation-metro-1-to-5-metre-ms",
     "status": "up",
     "uptime": "78.94%",
-    "uptimeDay": "14.21%",
+    "uptimeDay": "14.24%",
     "uptimeWeek": "6.85%",
     "uptimeMonth": "77.86%",
     "uptimeYear": "78.94%",
