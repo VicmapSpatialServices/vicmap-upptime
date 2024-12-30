@@ -300,7 +300,32 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features": []'
     maxResponseTime: 2000
-
+  - name: AGS_IMAGE-Vicmap_1m_DEM_Hill_Shade-IS
+    url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/Vicmap_1m_DEM_Hill_Shade/ImageServer/query?where=1%3D1&resultRecordCount=1&f=json&token=$AGS_IMAGE_TOKEN
+    headers:
+      - "Referer: https://vicmap.land.vic.gov.au"
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features": []'
+    maxResponseTime: 2000
+  - name: AGS_IMAGE-Vicmap_1m_DEM_Relief-IS
+    url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/Vicmap_1m_DEM_Relief/ImageServer/query?where=1%3D1&resultRecordCount=1&f=json&token=$AGS_IMAGE_TOKEN
+    headers:
+      - "Referer: https://vicmap.land.vic.gov.au"
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features": []'
+    maxResponseTime: 2000
+  - name: AGS_IMAGE-Vicmap_1m_DSM_LiDAR-IS
+    url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/Vicmap_1m_DSM_LiDAR/ImageServer/query?where=1%3D1&resultRecordCount=1&f=json&token=$AGS_IMAGE_TOKEN
+    headers:
+      - "Referer: https://vicmap.land.vic.gov.au"
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features": []'
+    maxResponseTime: 2000
+  - name: AGS_IMAGE-go_age_entgdb01_vmelev_vicmap_dem1...-IS
+    url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/go_age_entgdb01_vmelev_vicmap_dem1m_terrain_zonal_v10cm_ahd_epsg7844/ImageServer/query?where=1%3D1&resultRecordCount=1&f=json&token=$AGS_IMAGE_TOKEN
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
   - name: AGS_GIS-stateview_imagery_mosaic_epsg3857-MS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/basemaps/stateview_imagery_mosaic_epsg3857/MapServer/0/?f=json&token=$AGS_GIS_TOKEN
     headers:
