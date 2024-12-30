@@ -1,0 +1,7 @@
+url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/go_age_entgdb01_vmelev_vicmap_dem1m_terrain_zonal_v10cm_ahd_epsg7844/ImageServer/query?where=1%3D1&resultRecordCount=1&f=json&token=$AGS_IMAGE_TOKEN
+status: down
+code: 200
+responseTime: 188
+lastUpdated: 2024-12-30T03:04:52.891Z
+startTime: 2024-12-30T03:04:52.322Z
+generator: Upptime <https://github.com/upptime/upptime>
