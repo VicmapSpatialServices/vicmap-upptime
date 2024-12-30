@@ -103,34 +103,28 @@ sites:
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
   - name: AGOL- Vicmap_Vegetation_Tree_Density_GDA2020-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density_GDA2020/MapServer?f=pjson
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density_GDA2020/MapServer/0?f=pjson
     __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
   - name: AGOL-Vicmap_Veg_Tree_Density-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Veg_Tree_Density/MapServer?f=pjson
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Veg_Tree_Density/MapServer/0?f=pjson
     __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
   - name: AGOL-Vicmap_Vegetation_Tree_Extent_GDA2020-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Extent_GDA2020/MapServer?f=pjson
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Extent_GDA2020/MapServer/0?f=pjson
     __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
   - name: AGOL-Vicmap_Vegetation_Tree_Extent-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Extent/MapServer?f=pjson
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Extent/MapServer/0?f=pjson
     __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
   - name: AGOL-Vicmap_Vegetation_Tree_Urban_Tiled-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Urban_Tiled/MapServer?f=pjson
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Urban_Tiled/MapServer/0?f=pjson
     __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
   - name: AGOL-Vicmap_Vegetation_Tree_Urba-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Urba/MapServer?f=pjson
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Urba/MapServer/0?f=pjson
     __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
 
   # ArcGIS Enterprise (ISD)
