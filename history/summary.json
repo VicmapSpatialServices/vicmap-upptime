@@ -704,7 +704,7 @@
     "slug": "age-vicmap-crown-land-tenure-ms",
     "status": "up",
     "uptime": "78.35%",
-    "uptimeDay": "15.43%",
+    "uptimeDay": "15.46%",
     "uptimeWeek": "6.84%",
     "uptimeMonth": "77.23%",
     "uptimeYear": "78.35%",
@@ -736,7 +736,7 @@
     "slug": "age-vicmap-elevation-metro-1-to-5-metre-ms",
     "status": "up",
     "uptime": "78.94%",
-    "uptimeDay": "15.43%",
+    "uptimeDay": "15.46%",
     "uptimeWeek": "6.85%",
     "uptimeMonth": "77.86%",
     "uptimeYear": "78.94%",
@@ -1153,18 +1153,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "ags-image-go-age-entgdb01-vmelev-vicmap-dem1-is",
     "status": "down",
-    "uptime": "2.25%",
-    "uptimeDay": "2.25%",
-    "uptimeWeek": "2.25%",
-    "uptimeMonth": "2.25%",
-    "uptimeYear": "2.25%",
+    "uptime": "0.79%",
+    "uptimeDay": "0.79%",
+    "uptimeWeek": "0.79%",
+    "uptimeMonth": "0.79%",
+    "uptimeYear": "0.79%",
     "time": 188,
     "timeDay": 188,
     "timeWeek": 188,
     "timeMonth": 188,
     "timeYear": 188,
     "dailyMinutesDown": {
-      "2024-12-30": 0
+      "2024-12-30": 1
     }
   },
   {
