@@ -1,7 +1,7 @@
-url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density_GDA2020/MapServer?f=pjson
-status: down
+url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density_GDA2020/MapServer/0?f=pjson
+status: up
 code: 200
-responseTime: 245
-lastUpdated: 2024-12-30T02:39:56.600Z
+responseTime: 80
+lastUpdated: 2024-12-30T02:46:46.981Z
 startTime: 2024-12-30T02:39:56.342Z
 generator: Upptime <https://github.com/upptime/upptime>
