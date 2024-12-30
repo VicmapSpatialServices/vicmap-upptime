@@ -3,6 +3,8 @@ repo: vicmap-upptime
 
 assignees:
   - Niko361
+  - RubySaint
+  - adensley
 
 workflowSchedule:
   graphs: "0 0 * * *"
@@ -21,6 +23,11 @@ sites:
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
   - name: AGOL-Vicmap_Admin-FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Admin-FS-Duplicate
     url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
@@ -277,4 +284,4 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 # Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# See https://upptime.js.org/docs/configuration 
