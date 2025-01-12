@@ -15,9 +15,7 @@ workflowSchedule:
   updates: "0 3 * * *"
   uptime: 
     - '0 16 8-30 11 *'
-  uptime:
     - '0 16 * 12-2 *'
-  uptime:
     - '0 16 1-7 3 *'
     #- "*/5 * * * 1-4" # every 5 mins Mon-Thurs UTC
     #- "*/5 0-13 * * 5" # every 5 mins 00:00-13:55 Friday UTC
