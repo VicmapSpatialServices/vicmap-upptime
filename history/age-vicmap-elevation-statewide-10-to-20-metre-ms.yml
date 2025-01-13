@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Elevation_STATEWIDE_10_to_20_metre/MapServer/0/query?where=1%3D1&resultRecordCount=1
 status: up
 code: 200
-responseTime: 229
-lastUpdated: 2025-01-13T00:29:59.031Z
+responseTime: 856
+lastUpdated: 2025-01-13T23:07:03.211Z
 startTime: 2024-11-28T03:18:57.333Z
 generator: Upptime <https://github.com/upptime/upptime>
