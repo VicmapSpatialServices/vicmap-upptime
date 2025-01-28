@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Parcel_Property_Aspatial_Table/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
 status: up
 code: 200
-responseTime: 1070
-lastUpdated: 2025-01-27T23:07:06.750Z
+responseTime: 1001
+lastUpdated: 2025-01-28T23:07:09.682Z
 startTime: 2024-11-28T03:18:41.370Z
 generator: Upptime <https://github.com/upptime/upptime>
