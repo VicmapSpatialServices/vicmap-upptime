@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/Vicmap_1m_DEM_Terrain/ImageServer/query?where=1%3D1&resultRecordCount=1&f=json&token=$AGS_IMAGE_TOKEN
 status: up
 code: 200
-responseTime: 277
-lastUpdated: 2025-02-01T23:07:28.726Z
+responseTime: 248
+lastUpdated: 2025-02-02T23:05:05.089Z
 startTime: 2024-12-02T05:29:24.606Z
 generator: Upptime <https://github.com/upptime/upptime>
