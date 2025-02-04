@@ -13,7 +13,8 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/5 * * * 1-5"
+  uptime:
+    "*/5 * * * 1-5"
     #- "*/5 * * * 1-4" # every 5 mins Mon-Thurs UTC
     #- "*/5 0-13 * * 5" # every 5 mins 00:00-13:55 Friday UTC
     #- "*/5 14-23 * * 0" # every 5 mins 14:00-35:55 Sunday UTC
@@ -26,11 +27,6 @@ sites:
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
   - name: AGOL-Vicmap_Admin-FS
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Admin-FS-Duplicate
     url: https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
@@ -111,6 +107,10 @@ sites:
     maxResponseTime: 2000
   - name: AGOL-Vicmap_Veg_Tree_Density-MS
     url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Veg_Tree_Density/MapServer/0?f=pjson
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Veg_Tree_Density-VTS
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density/VectorTileServer
     __dangerous__body_down: "rror"
     maxResponseTime: 2000
   - name: AGOL-Vicmap_Vegetation_Tree_Extent_GDA2020-MS
