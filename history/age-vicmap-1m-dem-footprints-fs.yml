@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/hosting/rest/services/elevation/Vicmap_1m_DEM_Footprints/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
-status: up
+status: degraded
 code: 200
-responseTime: 1066
-lastUpdated: 2025-02-07T01:12:00.799Z
+responseTime: 15202
+lastUpdated: 2025-02-07T05:55:52.139Z
 startTime: 2024-12-01T22:31:38.384Z
 generator: Upptime <https://github.com/upptime/upptime>
