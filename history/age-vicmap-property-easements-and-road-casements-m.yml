@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/hosting/rest/services/vicmap/Vicmap_Property_Easements_and_Road_Casements/MapServer/0/query?where=1%3D1&resultRecordCount=1
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-02-14T13:53:49.228Z
+status: up
+code: 200
+responseTime: 220
+lastUpdated: 2025-02-14T14:01:11.309Z
 startTime: 2024-11-28T03:19:08.983Z
 generator: Upptime <https://github.com/upptime/upptime>
