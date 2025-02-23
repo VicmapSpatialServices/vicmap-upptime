@@ -17,7 +17,7 @@ workflowSchedule:
     "*/5 * * * 1-5"
     #- "*/5 * * * 1-4" # every 5 mins Mon-Thurs UTC
     #- "*/5 0-13 * * 5" # every 5 mins 00:00-13:55 Friday UTC
-    #- "*/5 14-23 * * 0" # every 5 mins 14:00-35:55 Sunday UTC 
+    #- "*/5 14-23 * * 0" # every 5 mins 14:00-35:55 Sunday UTC
 
 sites:
   # ArcGIS Online
