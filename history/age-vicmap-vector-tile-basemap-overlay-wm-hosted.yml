@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Overlay_WM_Hosted/VectorTileServer
-status: down
-code: 500
-responseTime: 198
-lastUpdated: 2025-03-03T23:26:25.317Z
+status: up
+code: 200
+responseTime: 203
+lastUpdated: 2025-03-03T23:34:33.839Z
 startTime: 2024-11-28T03:18:50.154Z
 generator: Upptime <https://github.com/upptime/upptime>
