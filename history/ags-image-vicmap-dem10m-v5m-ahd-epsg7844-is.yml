@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/vicmap_dem10m_v5m_ahd_epsg7844/ImageServer/query?where=1%3D1&resultRecordCount=1
 status: up
 code: 200
-responseTime: 243
-lastUpdated: 2025-03-11T23:07:33.639Z
+responseTime: 252
+lastUpdated: 2025-03-13T23:07:52.299Z
 startTime: 2024-11-28T22:35:20.757Z
 generator: Upptime <https://github.com/upptime/upptime>
