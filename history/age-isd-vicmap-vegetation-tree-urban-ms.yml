@@ -1,7 +1,7 @@
 url: https://enterprise.mapshare.vic.gov.au/server/rest/services/Vicmap_Vegetation_Tree_Urban/MapServer
-status: up
+status: degraded
 code: 200
-responseTime: 1167
-lastUpdated: 2025-03-25T23:07:37.083Z
+responseTime: 6657
+lastUpdated: 2025-03-26T04:56:34.093Z
 startTime: 2024-12-30T02:40:12.215Z
 generator: Upptime <https://github.com/upptime/upptime>
