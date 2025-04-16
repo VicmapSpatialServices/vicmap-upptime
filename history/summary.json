@@ -25,19 +25,19 @@
     "url": "https://services6.arcgis.com/GB33F62SbDxJjwEL/ArcGIS/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson",
     "icon": "https://icons.duckduckgo.com/ip3/services6.arcgis.com.ico",
     "slug": "agol-vicmap-admin-fs",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.52%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 264,
-    "timeDay": 28,
-    "timeWeek": 206,
-    "timeMonth": 176,
-    "timeYear": 264,
+    "time": 263,
+    "timeDay": 24,
+    "timeWeek": 185,
+    "timeMonth": 171,
+    "timeYear": 263,
     "dailyMinutesDown": {
-      "2025-04-16": 1
+      "2025-04-16": 7
     }
   },
   {
