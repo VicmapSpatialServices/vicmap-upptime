@@ -129,15 +129,15 @@ sites:
     url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Urba/MapServer/0?f=pjson
     __dangerous__body_down: "rror"
     maxResponseTime: 2000
+  - name: AGOL- Vicmap_Vegetation_Tree_Urban-FS
+    url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Vegetation_Tree_Urban/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
 
   # ArcGIS Enterprise (ISD)
   - name: AGE_ISD- Vicmap_Vegetation_Tree_Urban-MS
     url: https://enterprise.mapshare.vic.gov.au/server/rest/services/Vicmap_Vegetation_Tree_Urban/MapServer
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: "No records found."
-    maxResponseTime: 2000
-  - name: AGE_ISD- Vicmap_Vegetation_Tree_Urban-FS
-    url: https://enterprise.mapshare.vic.gov.au/server/rest/services/Hosted/Vicmap_Vegetation_Tree_Urban/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
