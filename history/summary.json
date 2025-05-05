@@ -105,18 +105,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/services-ap1.arcgis.com.ico",
     "slug": "agol-vicmap-features-of-interest-fs",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "99.41%",
-    "uptimeWeek": "99.92%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.99%",
+    "uptimeDay": "99.13%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.99%",
     "time": 136,
     "timeDay": 986,
     "timeWeek": 704,
     "timeMonth": 501,
     "timeYear": 136,
     "dailyMinutesDown": {
-      "2025-05-05": 8
+      "2025-05-05": 13
     }
   },
   {
@@ -124,19 +124,19 @@
     "url": "https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Geomark/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson",
     "icon": "https://icons.duckduckgo.com/ip3/services-ap1.arcgis.com.ico",
     "slug": "agol-vicmap-geomark-fs",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.86%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.62%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 140,
-    "timeDay": 1143,
-    "timeWeek": 838,
-    "timeMonth": 468,
+    "timeDay": 686,
+    "timeWeek": 762,
+    "timeMonth": 460,
     "timeYear": 140,
     "dailyMinutesDown": {
-      "2025-05-05": 2
+      "2025-05-05": 5
     }
   },
   {
@@ -167,9 +167,9 @@
     "slug": "agol-vicmap-index-fs",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.55%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.27%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 174,
     "timeDay": 952,
@@ -177,7 +177,7 @@
     "timeMonth": 566,
     "timeYear": 174,
     "dailyMinutesDown": {
-      "2025-05-05": 6
+      "2025-05-05": 10
     }
   },
   {
@@ -187,9 +187,9 @@
     "slug": "agol-vicmap-lite-fs",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.66%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.38%",
+    "uptimeWeek": "99.91%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 132,
     "timeDay": 741,
@@ -197,7 +197,7 @@
     "timeMonth": 418,
     "timeYear": 132,
     "dailyMinutesDown": {
-      "2025-05-05": 5
+      "2025-05-05": 9
     }
   },
   {
@@ -227,8 +227,8 @@
     "slug": "agol-vicmap-planning-fs",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.83%",
-    "uptimeWeek": "99.98%",
+    "uptimeDay": "99.55%",
+    "uptimeWeek": "99.94%",
     "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 161,
@@ -237,7 +237,7 @@
     "timeMonth": 497,
     "timeYear": 161,
     "dailyMinutesDown": {
-      "2025-05-05": 2
+      "2025-05-05": 6
     }
   },
   {
@@ -507,7 +507,7 @@
     "slug": "age-isd-vicmap-vegetation-tree-urban-ms",
     "status": "up",
     "uptime": "97.78%",
-    "uptimeDay": "28.04%",
+    "uptimeDay": "28.32%",
     "uptimeWeek": "60.18%",
     "uptimeMonth": "90.84%",
     "uptimeYear": "97.78%",
@@ -874,19 +874,19 @@
     "url": "https://vicmap.land.vic.gov.au/hosting/rest/services/elevation/Vicmap_1m_DEM_Footprints/FeatureServer/0/query?where=1%3D1&resultRecordCount=1",
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "age-vicmap-1m-dem-footprints-fs",
-    "status": "down",
+    "status": "up",
     "uptime": "97.78%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "95.65%",
+    "uptimeDay": "99.72%",
+    "uptimeWeek": "95.61%",
     "uptimeMonth": "95.84%",
     "uptimeYear": "97.78%",
-    "time": 1248,
-    "timeDay": 1055,
-    "timeWeek": 530,
-    "timeMonth": 1110,
-    "timeYear": 1248,
+    "time": 1246,
+    "timeDay": 648,
+    "timeWeek": 519,
+    "timeMonth": 1102,
+    "timeYear": 1246,
     "dailyMinutesDown": {
-      "2025-05-05": 1,
+      "2025-05-05": 4,
       "2025-05-02": 84,
       "2025-05-01": 105,
       "2025-04-30": 49,
