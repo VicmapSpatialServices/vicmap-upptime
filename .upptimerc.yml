@@ -26,18 +26,41 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Address-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Address/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson    
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Admin-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Admin-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Crown_Land_Tenure-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Crown_Land_Tenure/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Crown_Land_Tenure-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Crown_Land_Tenure/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  
   - name: AGOL-Vicmap_Elevation_METRO_1_to_5_metre-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Elevation_METRO_1_to_5_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Elevation_METRO_1_to_5_metre-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Elevation_METRO_1_to_5_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
@@ -46,87 +69,135 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Elevation_STATEWIDE_10_to_20_metre-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Elevation_STATEWIDE_10_to_20_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Features_of_Interest-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Features_of_Interest/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+    - name: AGOL-Vicmap_Features_of_Interest-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Features_of_Interest/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Geomark-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Geomark/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Geomark-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Geomark/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Hydro-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Hydro/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Hydro-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Hydro/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Index-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Index/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Index-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Index/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+    
   - name: AGOL-Vicmap_Lite-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Lite/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Lite-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Lite/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Parcel-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Parcel/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Parcel-FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Parcel/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+  
   - name: AGOL-Vicmap_Planning-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Planning/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Planning-FS
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Planning/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Position-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Position/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Position-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Position/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Property-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Property/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Property-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Property/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+    
   - name: AGOL-Vicmap_Property_Easements_and_Road_Casements-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Property_Easements_and_Road_Casements/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Property_Easements_and_Road_Casements-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Property_Easements_and_Road_Casements/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Transport-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Transport/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-  - name: AGOL- Vicmap_Vegetation_Tree_Density_GDA2020-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density_GDA2020/MapServer/0?f=pjson
+  - name: AGOL-Vicmap_Transport-FS old
+    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Transport/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-  - name: AGOL-Vicmap_Veg_Tree_Density-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Veg_Tree_Density/MapServer/0?f=pjson
-    __dangerous__body_down: "rror"
-    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Veg_Tree_Density-VTS
     url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density/VectorTileServer
-    __dangerous__body_down: "rror"
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Vegetation_Tree_Extent_GDA2020-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Extent_GDA2020/MapServer/0?f=pjson
-    __dangerous__body_down: "rror"
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Vegetation_Tree_Extent-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Extent/MapServer/0?f=pjson
-    __dangerous__body_down: "rror"
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Vegetation_Tree_Urban_Tiled-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Urban_Tiled/MapServer/0?f=pjson
-    __dangerous__body_down: "rror"
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Vegetation_Tree_Urba-MS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Urba/MapServer/0?f=pjson
     __dangerous__body_down: "rror"
     maxResponseTime: 2000
   - name: AGOL- Vicmap_Vegetation_Tree_Urban-FS
@@ -144,13 +215,13 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-
-  # ArcGIS Enterprise (ISD)
-  - name: AGE_ISD- Vicmap_Vegetation_Tree_Urban-MS
-    url: https://enterprise.mapshare.vic.gov.au/server/rest/services/Vicmap_Vegetation_Tree_Urban/MapServer
+  - name: AGOL-Vicmap_Vector_Tile_Basemap_Colour_WM
+    url: https://vicmap.land.vic.gov.au/hosting/rest/services/Hosted/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
     __dangerous__body_down: "rror"
-    __dangerous__body_degraded: "No records found."
+    __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
+    assignees:
+      - sylviadelw 
 
   # ArcGIS Server - GIS
   - name: AGS_GIS- Vicmap_Parcel_Property_Aspatial_Table-MS
@@ -202,8 +273,8 @@ sites:
     maxResponseTime: 2000
     assignees:
       - sylviadelw
-
-  # ArcGIS Enterprise
+  
+    # ArcGIS Enterprise
   - name: AGE- Vicmap_1m_DEM_Footprints-FS
     url: https://vicmap.land.vic.gov.au/hosting/rest/services/elevation/Vicmap_1m_DEM_Footprints/FeatureServer/0/query?where=1%3D1&resultRecordCount=1
     __dangerous__body_down: "rror"
@@ -344,3 +415,4 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
