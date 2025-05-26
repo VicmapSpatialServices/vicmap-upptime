@@ -1,7 +1,7 @@
 url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Vector_Tile_Basemap_Colour_WM_Hosted/VectorTileServer
-status: up
+status: down
 code: 200
-responseTime: 922
-lastUpdated: 2025-05-25T23:08:24.320Z
+responseTime: 1102
+lastUpdated: 2025-05-26T01:00:34.032Z
 startTime: 2025-05-15T03:37:15.637Z
 generator: Upptime <https://github.com/upptime/upptime>
