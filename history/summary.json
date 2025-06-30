@@ -431,7 +431,7 @@
     "uptime": "91.66%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.81%",
-    "uptimeMonth": "78.02%",
+    "uptimeMonth": "78.06%",
     "uptimeYear": "91.66%",
     "time": 336,
     "timeDay": 837,
@@ -468,9 +468,9 @@
     "url": "https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Parcel/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson",
     "icon": "https://icons.duckduckgo.com/ip3/services6.arcgis.com.ico",
     "slug": "agol-vicmap-parcel-fs-old",
-    "status": "up",
+    "status": "down",
     "uptime": "99.90%",
-    "uptimeDay": "98.28%",
+    "uptimeDay": "98.25%",
     "uptimeWeek": "99.75%",
     "uptimeMonth": "99.90%",
     "uptimeYear": "99.90%",
@@ -480,7 +480,7 @@
     "timeMonth": 60,
     "timeYear": 60,
     "dailyMinutesDown": {
-      "2025-06-30": 25
+      "2025-06-30": 26
     }
   },
   {
@@ -492,7 +492,7 @@
     "uptime": "90.28%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "90.83%",
+    "uptimeMonth": "90.88%",
     "uptimeYear": "90.28%",
     "time": 264,
     "timeDay": 846,
@@ -789,7 +789,7 @@
     "uptime": "82.99%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "88.50%",
+    "uptimeMonth": "88.54%",
     "uptimeYear": "82.99%",
     "time": 671,
     "timeDay": 893,
