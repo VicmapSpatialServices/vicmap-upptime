@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/Vicmap_1m_DSM_LiDAR/ImageServer/query?where=1%3D1&resultRecordCount=1&f=json&token=$AGS_IMAGE_TOKEN
 status: up
 code: 200
-responseTime: 232
-lastUpdated: 2025-07-08T23:08:53.530Z
+responseTime: 237
+lastUpdated: 2025-07-09T23:09:02.508Z
 startTime: 2024-12-30T03:04:51.775Z
 generator: Upptime <https://github.com/upptime/upptime>
