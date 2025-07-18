@@ -1,7 +1,7 @@
 url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Hydro/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
 status: up
 code: 200
-responseTime: 110
-lastUpdated: 2025-07-17T23:09:49.550Z
+responseTime: 167
+lastUpdated: 2025-07-18T23:09:04.954Z
 startTime: 2025-05-15T03:37:02.466Z
 generator: Upptime <https://github.com/upptime/upptime>
