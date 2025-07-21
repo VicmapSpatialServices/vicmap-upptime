@@ -66,7 +66,7 @@
     "uptimeYear": "100.00%",
     "time": 560,
     "timeDay": 154,
-    "timeWeek": 930,
+    "timeWeek": 120,
     "timeMonth": 407,
     "timeYear": 560,
     "dailyMinutesDown": {}
@@ -102,7 +102,7 @@
     "uptimeYear": "100.00%",
     "time": 503,
     "timeDay": 158,
-    "timeWeek": 2946,
+    "timeWeek": 111,
     "timeMonth": 974,
     "timeYear": 503,
     "dailyMinutesDown": {}
@@ -138,7 +138,7 @@
     "uptimeYear": "100.00%",
     "time": 103,
     "timeDay": 172,
-    "timeWeek": 299,
+    "timeWeek": 58,
     "timeMonth": 121,
     "timeYear": 103,
     "dailyMinutesDown": {}
@@ -174,7 +174,7 @@
     "uptimeYear": "100.00%",
     "time": 212,
     "timeDay": 220,
-    "timeWeek": 1072,
+    "timeWeek": 74,
     "timeMonth": 373,
     "timeYear": 212,
     "dailyMinutesDown": {}
@@ -228,7 +228,7 @@
     "uptimeYear": "100.00%",
     "time": 306,
     "timeDay": 1825,
-    "timeWeek": 881,
+    "timeWeek": 992,
     "timeMonth": 770,
     "timeYear": 306,
     "dailyMinutesDown": {}
@@ -246,7 +246,7 @@
     "uptimeYear": "100.00%",
     "time": 95,
     "timeDay": 222,
-    "timeWeek": 164,
+    "timeWeek": 71,
     "timeMonth": 98,
     "timeYear": 95,
     "dailyMinutesDown": {}
@@ -318,7 +318,7 @@
     "uptimeYear": "100.00%",
     "time": 346,
     "timeDay": 435,
-    "timeWeek": 871,
+    "timeWeek": 106,
     "timeMonth": 616,
     "timeYear": 346,
     "dailyMinutesDown": {}
@@ -390,7 +390,7 @@
     "uptimeYear": "100.00%",
     "time": 254,
     "timeDay": 399,
-    "timeWeek": 1064,
+    "timeWeek": 100,
     "timeMonth": 301,
     "timeYear": 254,
     "dailyMinutesDown": {}
@@ -426,7 +426,7 @@
     "uptimeYear": "100.00%",
     "time": 282,
     "timeDay": 335,
-    "timeWeek": 1215,
+    "timeWeek": 127,
     "timeMonth": 433,
     "timeYear": 282,
     "dailyMinutesDown": {}
@@ -462,7 +462,7 @@
     "uptimeYear": "100.00%",
     "time": 136,
     "timeDay": 198,
-    "timeWeek": 363,
+    "timeWeek": 73,
     "timeMonth": 184,
     "timeYear": 136,
     "dailyMinutesDown": {}
@@ -534,7 +534,7 @@
     "uptimeYear": "100.00%",
     "time": 215,
     "timeDay": 221,
-    "timeWeek": 946,
+    "timeWeek": 95,
     "timeMonth": 370,
     "timeYear": 215,
     "dailyMinutesDown": {}
@@ -670,7 +670,7 @@
     "url": "https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Parcel_Property_Aspatial_Table/MapServer/0/query?where=1%3D1&resultRecordCount=1",
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "ags-gis-vicmap-parcel-property-aspatial-table-ms",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -732,7 +732,7 @@
     "uptimeYear": "100.00%",
     "time": 304,
     "timeDay": 432,
-    "timeWeek": 325,
+    "timeWeek": 350,
     "timeMonth": 347,
     "timeYear": 304,
     "dailyMinutesDown": {}
@@ -750,7 +750,7 @@
     "uptimeYear": "100.00%",
     "time": 340,
     "timeDay": 430,
-    "timeWeek": 316,
+    "timeWeek": 340,
     "timeMonth": 233,
     "timeYear": 340,
     "dailyMinutesDown": {}
@@ -768,7 +768,7 @@
     "uptimeYear": "100.00%",
     "time": 240,
     "timeDay": 429,
-    "timeWeek": 314,
+    "timeWeek": 337,
     "timeMonth": 236,
     "timeYear": 240,
     "dailyMinutesDown": {}
@@ -786,7 +786,7 @@
     "uptimeYear": "100.00%",
     "time": 281,
     "timeDay": 429,
-    "timeWeek": 314,
+    "timeWeek": 336,
     "timeMonth": 254,
     "timeYear": 281,
     "dailyMinutesDown": {}
