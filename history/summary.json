@@ -670,7 +670,7 @@
     "url": "https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Parcel_Property_Aspatial_Table/MapServer/0/query?where=1%3D1&resultRecordCount=1",
     "icon": "https://icons.duckduckgo.com/ip3/vicmap.land.vic.gov.au.ico",
     "slug": "ags-gis-vicmap-parcel-property-aspatial-table-ms",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
