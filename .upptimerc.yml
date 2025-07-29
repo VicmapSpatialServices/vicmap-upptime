@@ -200,6 +200,18 @@ sites:
     url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density/VectorTileServer
     __dangerous__body_down: "rror"
     maxResponseTime: 2000
+  - name: AGOL-Vicmap_Veg_Tree_Density-VTS
+    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density/VectorTileServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Vegetation_Tree_Extent_VG-MS
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Vegetation_Tree_Extent_VG/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_Vegetation_Tree_Urban-MS-VG
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Vegetation_Tree_Urban_VG/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000
   - name: AGOL- Vicmap_Vegetation_Tree_Urban-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Vegetation_Tree_Urban/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
@@ -222,13 +234,6 @@ sites:
     maxResponseTime: 2000
     assignees:
       - sylviadelw 
-
-  # ArcGIS Server - GIS
-  - name: AGS_GIS- Vicmap_Parcel_Property_Aspatial_Table-MS
-    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Parcel_Property_Aspatial_Table/MapServer/0/query?where=1%3D1&resultRecordCount=1
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: "No records found."
-    maxResponseTime: 2000
 
   # ArcGIS Server - Image
   - name: AGS_IMAGE-vicmap_dem10m_v5m_ahd_epsg7844-IS
