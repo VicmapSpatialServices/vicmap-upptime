@@ -241,7 +241,7 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-  assignees:
+    assignees:
       - sylviadelw 
   - name: AGOL-Vicmap_Vector_Tile_Basemap_Hybrid_WM
     url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Vector_Tile_Basemap_Hybrid_WM/VectorTileServer
