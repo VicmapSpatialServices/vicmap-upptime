@@ -264,7 +264,7 @@
     "uptimeYear": "100.00%",
     "time": 92,
     "timeDay": 149,
-    "timeWeek": 112,
+    "timeWeek": 106,
     "timeMonth": 94,
     "timeYear": 92,
     "dailyMinutesDown": {}
@@ -336,7 +336,7 @@
     "uptimeYear": "100.00%",
     "time": 270,
     "timeDay": 197,
-    "timeWeek": 118,
+    "timeWeek": 114,
     "timeMonth": 107,
     "timeYear": 270,
     "dailyMinutesDown": {}
@@ -508,7 +508,7 @@
     "url": "https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Property/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson",
     "icon": "https://icons.duckduckgo.com/ip3/services6.arcgis.com.ico",
     "slug": "agol-vicmap-property-fs-old",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -913,7 +913,7 @@
     "time": 207,
     "timeDay": 153,
     "timeWeek": 183,
-    "timeMonth": 378,
+    "timeMonth": 186,
     "timeYear": 207,
     "dailyMinutesDown": {}
   }
