@@ -400,7 +400,7 @@
     "url": "https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Parcel/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson",
     "icon": "https://icons.duckduckgo.com/ip3/services6.arcgis.com.ico",
     "slug": "agol-vicmap-parcel-fs-old",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
