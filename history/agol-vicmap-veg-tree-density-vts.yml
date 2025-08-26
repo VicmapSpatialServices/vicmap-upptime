@@ -1,7 +1,7 @@
 url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density/VectorTileServer
-status: up
+status: down
 code: 200
-responseTime: 5
-lastUpdated: 2025-08-25T23:08:36.999Z
+responseTime: 209
+lastUpdated: 2025-08-26T03:57:15.765Z
 startTime: 2025-02-04T06:31:07.589Z
 generator: Upptime <https://github.com/upptime/upptime>
