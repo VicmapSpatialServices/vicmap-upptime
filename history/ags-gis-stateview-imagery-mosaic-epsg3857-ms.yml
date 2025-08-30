@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/agsgis/rest/services/basemaps/stateview_imagery_mosaic_epsg3857/MapServer/0/?f=json&token=$AGS_GIS_TOKEN
 status: up
 code: 200
-responseTime: 180
-lastUpdated: 2025-08-29T23:08:21.976Z
+responseTime: 205
+lastUpdated: 2025-08-30T23:08:04.565Z
 startTime: 2024-12-02T05:29:25.141Z
 generator: Upptime <https://github.com/upptime/upptime>
