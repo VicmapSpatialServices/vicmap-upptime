@@ -48,11 +48,6 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-  - name: AGOL-Vicmap_Crown_Land_Tenure-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Crown_Land_Tenure/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
   
   - name: AGOL-Vicmap_Elevation_METRO_1_to_5_metre-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Elevation_METRO_1_to_5_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
@@ -176,20 +171,12 @@ sites:
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
 
-  - name: AGOL-Vicmap_Veg_Tree_Density-VTS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density/VectorTileServer
-    __dangerous__body_down: "rror"
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Veg_Tree_Density-VTS
-    url: https://tiles.arcgis.com/tiles/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Vegetation_Tree_Density/VectorTileServer
-    __dangerous__body_down: "rror"
-    maxResponseTime: 2000
   - name: AGOL-Vicmap_Vegetation_Tree_Extent_VG-MS
     url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Vegetation_Tree_Extent_VG/MapServer
     __dangerous__body_down: "rror"
     maxResponseTime: 2000
-  - name: AGOL-Vicmap_Vegetation_Tree_Urban-MS-VG
-    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Vegetation_Tree_Urban_VG/MapServer
+  - name: AGOL-Vicmap_Vegetation_Tree_Urban-MS-WM
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Vegetation_Tree_Density_WM/MapServer
     __dangerous__body_down: "rror"
     maxResponseTime: 2000
   - name: AGOL- Vicmap_Vegetation_Tree_Urban-FS
