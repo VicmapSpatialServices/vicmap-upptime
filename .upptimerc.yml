@@ -137,11 +137,6 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-  - name: AGOL-Vicmap_Position-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Position/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
 
   - name: AGOL-Vicmap_Property-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Property/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
