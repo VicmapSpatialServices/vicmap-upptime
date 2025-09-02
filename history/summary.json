@@ -166,17 +166,17 @@
     "url": "https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Elevation_STATEWIDE_10_to_20_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson",
     "icon": "https://icons.duckduckgo.com/ip3/services6.arcgis.com.ico",
     "slug": "agol-vicmap-elevation-statewide-10-to-20-metre-fs-old",
-    "status": "down",
+    "status": "degraded",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 205,
-    "timeDay": 117,
-    "timeWeek": 336,
-    "timeMonth": 242,
-    "timeYear": 205,
+    "time": 261,
+    "timeDay": 3666,
+    "timeWeek": 1024,
+    "timeMonth": 430,
+    "timeYear": 261,
     "dailyMinutesDown": {}
   },
   {
@@ -480,7 +480,7 @@
     "uptimeYear": "100.00%",
     "time": 119,
     "timeDay": 118,
-    "timeWeek": 94,
+    "timeWeek": 99,
     "timeMonth": 98,
     "timeYear": 119,
     "dailyMinutesDown": {}
@@ -516,7 +516,7 @@
     "uptimeYear": "100.00%",
     "time": 62,
     "timeDay": 145,
-    "timeWeek": 87,
+    "timeWeek": 91,
     "timeMonth": 68,
     "timeYear": 62,
     "dailyMinutesDown": {}
@@ -552,7 +552,7 @@
     "uptimeYear": "100.00%",
     "time": 168,
     "timeDay": 140,
-    "timeWeek": 95,
+    "timeWeek": 94,
     "timeMonth": 110,
     "timeYear": 168,
     "dailyMinutesDown": {}
@@ -606,7 +606,7 @@
     "uptimeYear": "100.00%",
     "time": 155,
     "timeDay": 152,
-    "timeWeek": 511,
+    "timeWeek": 528,
     "timeMonth": 224,
     "timeYear": 155,
     "dailyMinutesDown": {}
@@ -624,7 +624,7 @@
     "uptimeYear": "100.00%",
     "time": 155,
     "timeDay": 152,
-    "timeWeek": 511,
+    "timeWeek": 528,
     "timeMonth": 224,
     "timeYear": 155,
     "dailyMinutesDown": {}
