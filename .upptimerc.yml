@@ -221,10 +221,17 @@ sites:
     maxResponseTime: 2000
     assignees:
       - sylviadelw 
+      
+ # ArcGIS Enterprise
+    - name: AGE-Vicmap_Property_Address-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Address/MapServer/0/0/query?where=1%3D1&resultRecordCount=1
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
 
   # ArcGIS Server - Image
   - name: AGS_IMAGE-vicmap_dem10m_v5m_ahd_epsg7844-IS
-    url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/vicmap_dem10m_v5m_ahd_epsg7844/ImageServer/query?where=1%3D1&resultRecordCount=1
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Address/MapServer/0
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
