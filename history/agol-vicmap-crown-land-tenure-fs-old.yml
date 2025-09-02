@@ -1,7 +1,7 @@
 url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Crown_Land_Tenure/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-status: up
+status: down
 code: 200
-responseTime: 116
-lastUpdated: 2025-09-01T23:07:52.963Z
+responseTime: 29
+lastUpdated: 2025-09-02T06:27:27.574Z
 startTime: 2025-05-15T03:36:56.523Z
 generator: Upptime <https://github.com/upptime/upptime>
