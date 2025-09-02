@@ -59,18 +59,8 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-  - name: AGOL-Vicmap_Elevation_METRO_1_to_5_metre-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Elevation_METRO_1_to_5_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
   - name: AGOL-Vicmap_Elevation_STATEWIDE_10_to_20_metre-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Elevation_STATEWIDE_10_to_20_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Elevation_STATEWIDE_10_to_20_metre-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Elevation_STATEWIDE_10_to_20_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
@@ -96,11 +86,6 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-  - name: AGOL-Vicmap_Geomark-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Geomark/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
 
   - name: AGOL-Vicmap_Hydro-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Hydro/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
@@ -115,11 +100,6 @@ sites:
 
   - name: AGOL-Vicmap_Index-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Index/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Index-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Index/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
@@ -170,11 +150,6 @@ sites:
 
   - name: AGOL-Vicmap_Property-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Property/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Property-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Property/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
