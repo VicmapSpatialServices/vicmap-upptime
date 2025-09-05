@@ -43,12 +43,6 @@ sites:
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
 
-  - name: AGOL-Vicmap Image Plus Footprints
-    url:https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Basemaps_Image_Plus_Footprints/FeatureServer
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
-
   - name: AGOL-Vicmap_Crown_Land_Tenure-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Crown_Land_Tenure/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
