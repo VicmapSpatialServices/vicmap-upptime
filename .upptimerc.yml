@@ -43,7 +43,7 @@ sites:
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
 
-  - name name: AGOL-Vicmap Image Plus Footprints
+  - name: AGOL-Vicmap Image Plus Footprints
     url:https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Basemaps_Image_Plus_Footprints/FeatureServer
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
