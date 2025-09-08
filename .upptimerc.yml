@@ -218,7 +218,7 @@ sites:
       - sylviadelw 
       
  # ArcGIS Enterprise
-    - name: AGE-Vicmap_Property_Address-MS
+  - name: AGE-Vicmap_Property_Address-MS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Address/MapServer/0
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
