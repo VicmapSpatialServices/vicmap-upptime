@@ -1,7 +1,7 @@
 url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Geomark/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
 status: up
 code: 200
-responseTime: 635
-lastUpdated: 2025-09-09T23:07:21.986Z
+responseTime: 489
+lastUpdated: 2025-09-10T23:07:31.769Z
 startTime: 2024-11-28T03:18:37.453Z
 generator: Upptime <https://github.com/upptime/upptime>
