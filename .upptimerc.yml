@@ -220,9 +220,98 @@ sites:
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
- # ArcGIS Enterprise
   - name: AGE-Vicmap_Admin-MS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Admin/MapServer/0
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+  - name: AGE-Crown_Land-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Crown_Land_Tenure/MapServer/0
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+  - name: AGE-Vicmap_Elevation_Metro-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Elevation_Metro/MapServer/0
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+  - name: AGE-Vicmap_Elevation_Metro_Statewide-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Elevation_Statewide/MapServer/0
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+  - name: AGE-Vicmap_Features_of_Interest_Statewide-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Features_of_Interest/MapServer/0
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+  - name: AGE-Vicmap_Geomark-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Geomark/MapServer/0
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+  - name: AGE-Vicmap_Hydro-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Hydro/MapServer
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+  - name: AGE-Vicmap_Index-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Index/MapServer
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+   - name: AGE-Vicmap_Lite-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Lite/MapServer
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+   - name: AGE-Vicmap_Planning-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Planning/MapServer
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+   - name: AGE-Vicmap_Transport-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Transport/MapServer
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+   - name: AGE-Vicmap_Property_Easements_and_Road_Casements-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Property_Easements_and_Road_Casements/MapServer
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+   - name: AGE-Vicmap_Property-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Property/MapServer/0
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+  - name: AGE-Vicmap_Parcel-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Parcel/MapServer/0
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+  - name: AGE-Vicmap_Position-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Position/MapServer/0
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
+
+  - name: AGE-Vicmap_Vegetation_Tree_Urban-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Vegetation_Tree_Urban/MapServer/0
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
