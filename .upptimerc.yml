@@ -226,7 +226,7 @@ sites:
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-  - name: AGE-Crown_Land-MS
+  - name: AGE-Crown_Land_Tenure-MS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Crown_Land_Tenure/MapServer/0
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
