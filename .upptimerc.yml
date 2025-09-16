@@ -31,7 +31,12 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-
+ - name: AGOL-Vicmap_Address-FS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Address/MapServer
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+   
   - name: AGOL-Vicmap_Admin-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Admin/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
