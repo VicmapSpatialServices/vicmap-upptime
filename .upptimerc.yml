@@ -65,6 +65,12 @@ sites:
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
 
+     - name: AGOL-Vicmap_Address-FS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Address/MapServer
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: '"features" : []'
+    maxResponseTime: 2000
+
   - name: AGOL-Vicmap_Features_of_Interest-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Features_of_Interest/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
@@ -213,12 +219,18 @@ sites:
       - sylviadelw 
       
  # ArcGIS Enterprise
-  - name: AGE-Vicmap_Property_Address-MS
+  - name: AGE-Vicmap_Address-MS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Address/MapServer/0
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
+ # ArcGIS Enterprise
+  - name: AGE-Vicmap_Admin-MS
+    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Admin/MapServer/0
+    __dangerous__body_down: "rror"
+    __dangerous__body_degraded: "No records found."
+    maxResponseTime: 2000
 
   # Restricted Services, require access tokens.
   - name: AGS_IMAGE-Vicmap_1m_DEM_Terrain-IS
