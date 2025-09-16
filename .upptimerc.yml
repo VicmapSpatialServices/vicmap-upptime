@@ -268,31 +268,31 @@ sites:
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-   - name: AGE-Vicmap_Lite-MS
+  - name: AGE-Vicmap_Lite-MS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Lite/MapServer
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-   - name: AGE-Vicmap_Planning-MS
+  - name: AGE-Vicmap_Planning-MS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Planning/MapServer
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-   - name: AGE-Vicmap_Transport-MS
+  - name: AGE-Vicmap_Transport-MS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Transport/MapServer
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-   - name: AGE-Vicmap_Property_Easements_and_Road_Casements-MS
+  - name: AGE-Vicmap_Property_Easements_and_Road_Casements-MS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Property_Easements_and_Road_Casements/MapServer
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
     maxResponseTime: 2000
 
-   - name: AGE-Vicmap_Property-MS
+  - name: AGE-Vicmap_Property-MS
     url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Property/MapServer/0
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: "No records found."
