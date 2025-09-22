@@ -1,7 +1,7 @@
-url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Address/MapServer
-status: up
+url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Address/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
+status: degraded
 code: 200
-responseTime: 611
-lastUpdated: 2025-09-22T02:39:36.475Z
+responseTime: 957
+lastUpdated: 2025-09-22T03:28:31.122Z
 startTime: 2024-12-30T00:35:46.476Z
 generator: Upptime <https://github.com/upptime/upptime>
