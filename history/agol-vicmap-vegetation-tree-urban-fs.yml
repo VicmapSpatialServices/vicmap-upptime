@@ -1,7 +1,7 @@
 url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Vegetation_Tree_Urban/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
 status: up
 code: 200
-responseTime: 233
-lastUpdated: 2025-10-02T23:07:48.454Z
+responseTime: 708
+lastUpdated: 2025-10-03T23:07:34.606Z
 startTime: 2025-04-17T02:26:28.537Z
 generator: Upptime <https://github.com/upptime/upptime>
