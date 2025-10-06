@@ -1,7 +1,7 @@
 url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Property_Easements_and_Road_Casements/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
 status: up
 code: 200
-responseTime: 898
-lastUpdated: 2025-10-05T23:05:02.764Z
+responseTime: 548
+lastUpdated: 2025-10-06T23:08:04.510Z
 startTime: 2024-11-28T03:18:40.632Z
 generator: Upptime <https://github.com/upptime/upptime>
