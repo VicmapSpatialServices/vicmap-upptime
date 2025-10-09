@@ -352,6 +352,48 @@ sites:
     __dangerous__body_down: "rror"
     maxResponseTime: 2000
 
+  # Elevation services
+  - name: AGOL-Vicmap_1m_DEM_Sample_Great_Ocean_Road
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_1m_DEM_Sample_Great_Ocean_Road/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_1m_DEM_Sample_Tower_Hill
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_1m_DEM_Sample_Tower_Hill/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000  
+  - name: AGOL-Vicmap_1m_DEM_Sample_Wilsons_Promontory
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Wilsons_prom/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000  
+  - name: AGOL-Vicmap_1m_DEM_Sample_Mount_Delegate
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_1m_DEM_Sample_Mount_Delegate/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000  
+  - name: AGOL-Vicmap_1m_DEM_Sample_Snowy_River
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_1m_DEM_Sample_Snowy_River/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000 
+  - name: AGOL-Vicmap_1m_DEM_Sample_Sandbelt
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_1m_DEM_Sample_Sandbelt/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000 
+  - name: AGOL-Vicmap_1m_DEM_Sample_Koondrook
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_1m_DEM_Sample_Koondrook/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_1m_DEM_Sample_Mount_Buffalo
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Mount_Buffalo/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_1m_DEM_Sample_Lakes_Entrance
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Lakes_Entrance/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000
+  - name: AGOL-Vicmap_1m_DEM_Sample_Mount_Bogong
+    url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_1m_DEM_Sample_Mount_Bogong_v2/MapServer
+    __dangerous__body_down: "rror"
+    maxResponseTime: 2000
+
 status-website:
   baseUrl: /vicmap-upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
