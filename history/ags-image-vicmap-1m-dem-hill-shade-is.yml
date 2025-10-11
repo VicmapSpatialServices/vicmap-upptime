@@ -1,7 +1,7 @@
 url: https://vicmap.land.vic.gov.au/agsimage/rest/services/elevation/Vicmap_1m_DEM_Hill_Shade/ImageServer/query?where=1%3D1&resultRecordCount=1&f=json&token=$AGS_IMAGE_TOKEN
 status: down
 code: 200
-responseTime: 166
-lastUpdated: 2025-10-10T23:07:44.096Z
+responseTime: 164
+lastUpdated: 2025-10-11T23:07:52.134Z
 startTime: 2024-12-30T03:04:50.653Z
 generator: Upptime <https://github.com/upptime/upptime>
