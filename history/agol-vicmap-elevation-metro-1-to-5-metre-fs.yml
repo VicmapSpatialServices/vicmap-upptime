@@ -1,7 +1,7 @@
 url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Elevation_METRO_1_to_5_metre/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
 status: up
 code: 200
-responseTime: 997
-lastUpdated: 2025-10-11T23:07:16.364Z
+responseTime: 913
+lastUpdated: 2025-10-12T23:07:21.832Z
 startTime: 2024-11-28T03:18:36.383Z
 generator: Upptime <https://github.com/upptime/upptime>
