@@ -1,7 +1,7 @@
 url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Lite/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
 status: down
 code: 200
-responseTime: 93
-lastUpdated: 2025-10-11T23:07:26.728Z
+responseTime: 117
+lastUpdated: 2025-10-12T23:07:35.972Z
 startTime: 2025-05-15T03:37:05.146Z
 generator: Upptime <https://github.com/upptime/upptime>
