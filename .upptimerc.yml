@@ -71,11 +71,6 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-  - name: AGOL-Vicmap_Features_of_Interest-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Features_of_Interest/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
 
   - name: AGOL-Vicmap_Geomark-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Geomark/FeatureServer/1/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
@@ -100,11 +95,6 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-  - name: AGOL-Vicmap_Lite-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Lite/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
 
   - name: AGOL-Vicmap_Parcel-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Parcel/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
@@ -119,11 +109,6 @@ sites:
   
   - name: AGOL-Vicmap_Planning-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Planning/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Planning-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Planning/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
@@ -145,19 +130,9 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-  - name: AGOL-Vicmap_Property_Easements_and_Road_Casements-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Property_Easements_and_Road_Casements/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
 
   - name: AGOL-Vicmap_Transport-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Transport/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Transport-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Transport/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
@@ -210,8 +185,6 @@ sites:
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
-    assignees:
-      - sylviadelw 
       
  # ArcGIS Enterprise
   - name: AGE-Vicmap_Address-MS
