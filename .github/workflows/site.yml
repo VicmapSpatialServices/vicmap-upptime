@@ -27,22 +27,28 @@ jobs:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
+      # Checkout repository
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd7190b6c3b3efc4797b8c4f7f2f14a0b8bfb0
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
+
+      # Generate site
       - name: Generate site
-        uses: upptime/uptime-monitor@v1.41.0
+        uses: upptime/uptime-monitor@00c72a91a93e179f77a5df612cbe0e9d1534e65b
         with:
           command: "site"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
-      - uses: peaceiris/actions-gh-pages@v4
-        name: GitHub Pages Deploy
+
+      # Deploy to GitHub Pages
+      - name: GitHub Pages Deploy
+        uses: peaceiris/actions-gh-pages@9b31d97a3b9ee2f6f14e0d0a7eb6e2df17df2f8b
         with:
           github_token: ${{ secrets.GH_PAT || github.token }}
           publish_dir: "site/status-page/__sapper__/export/"
           force_orphan: "false"
           user_name: "Upptime Bot"
           user_email: "73812536+upptime-bot@users.noreply.github.com"
+
