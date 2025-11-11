@@ -26,15 +26,10 @@ jobs:
     name: Check status
     runs-on: ubuntu-latest
     steps:
+      # Checkout repository
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd7190b6c3b3efc4797b8c4f7f2f14a0b8bfb0
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
-      - name: Check endpoint status
-        uses: upptime/uptime-monitor@v1.41.0
-        with:
-          command: "update"
-        env:
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
-          SECRETS_CONTEXT: ${{ toJson(secrets) }}
+
