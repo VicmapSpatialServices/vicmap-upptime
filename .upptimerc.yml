@@ -14,7 +14,7 @@ workflowSchedule:
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
   uptime:
-    "*/5 * * * 1-5"
+    - "*/5 * * * 1-5"
     #- "*/5 * * * 1-4" # every 5 mins Mon-Thurs UTC
     #- "*/5 0-13 * * 5" # every 5 mins 00:00-13:55 Friday UTC
     #- "*/5 14-23 * * 0" # every 5 mins 14:00-35:55 Sunday UTC
@@ -23,11 +23,6 @@ sites:
   # ArcGIS Online
   - name: AGOL-Vicmap_Address-FS
     url: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Address/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
-  - name: AGOL-Vicmap_Address-FS old
-    url: https://services6.arcgis.com/GB33F62SbDxJjwEL/arcgis/rest/services/Vicmap_Address/FeatureServer/0/query?where=1%3D1&resultRecordCount=1&sqlFormat=none&f=pjson    
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
@@ -56,12 +51,6 @@ sites:
     maxResponseTime: 2000
   - name: AGOL-Vicmap_10m_DEM_Shaded_Relief
     url: https://tiles-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_10m_DEM_Shaded_Relief/MapServer/
-    __dangerous__body_down: "rror"
-    __dangerous__body_degraded: '"features" : []'
-    maxResponseTime: 2000
-
-  - name: AGOL-Vicmap_Address-FS
-    url: https://vicmap.land.vic.gov.au/agsgis/rest/services/vicmap/Vicmap_Address/MapServer
     __dangerous__body_down: "rror"
     __dangerous__body_degraded: '"features" : []'
     maxResponseTime: 2000
