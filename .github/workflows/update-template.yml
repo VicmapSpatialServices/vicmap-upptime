@@ -19,21 +19,21 @@ on:
   schedule:
     - cron: "0 0 * * *"
   repository_dispatch:
-    types: [update_template]
+    types: [update-template]
   workflow_dispatch:
 jobs:
-  release:
-    name: Build
+  update-template:
+    name: Update template
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd7190b6c3b3efc4797b8c4f7f2f14a0b8bfb0
         with:
-          ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
       - name: Update template
-        uses: upptime/uptime-monitor@master
+        uses: upptime/uptime-monitor@00c72a91a93e179f77a5df612cbe0e9d1534e65b
         with:
           command: "update-template"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
+
